@@ -6,6 +6,31 @@ body {
   overflow-x: hidden;
 }
 
+.hahabw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -5px;
+  margin-top: 25px;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00bbf0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.hahabw a:hover {
+  background-color: #007fa4;
+}
+
+.hahabw a {
+  margin: 5px;
+  text-align: center;
+  width: 165px;
+}
 .layout_padding {
   padding: 90px 0;
 }
